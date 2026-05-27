@@ -1,3 +1,88 @@
+src/
+├── app/                          # Pages only
+│   ├── dashboard/page.tsx
+│   ├── user-management/page.tsx
+│   ├── userdet/[userid]/page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/                   # Reusable components
+│   ├── Button/
+│   │   ├── Button.tsx
+│   │   └── Button.css
+│   ├── Card/
+│   │   ├── Card.tsx
+│   │   └── Card.css
+│   ├── Navbar/
+│   │   ├── Navbar.tsx
+│   │   └── Navbar.css
+│   ├── SearchBar/
+│   │   ├── SearchBar.tsx
+│   │   └── SearchBar.css
+│   └── Sidebar/
+│       ├── Sidebar.tsx
+│       └── Sidebar.css
+│
+├── services/                     # API & Business Logic
+│   ├── apiClient.ts             # Axios/Fetch wrapper
+│   ├── authService.ts           # Authentication logic
+│   ├── userService.ts           # User API calls
+│   └── dashboardService.ts      # Dashboard data fetching
+│
+├── types/                        # TypeScript types & interfaces
+│   ├── user.ts
+│   ├── dashboard.ts
+│   └── api.ts
+│
+├── utils/                        # Helper functions
+│   ├── formatDate.ts
+│   ├── validation.ts
+│   └── constants.ts
+│
+├── hooks/                        # Custom React hooks
+│   ├── useAuth.ts
+│   ├── useUser.ts
+│   └── useFetch.ts
+│
+├── styles/                       # Global styles
+│   ├── globals.css
+│   ├── variables.css             # CSS variables
+│   └── reset.css
+│
+└── context/                      # React Context (if needed)
+    ├── AuthContext.tsx
+    └── UserContext.tsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
