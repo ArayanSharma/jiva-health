@@ -1,70 +1,46 @@
-src/
-├── app/                          # Pages only
-│   ├── dashboard/page.tsx
-│   ├── user-management/page.tsx
-│   ├── userdet/[userid]/page.tsx
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components/                   # Reusable components
-│   ├── Button/
-│   │   ├── Button.tsx
-│   │   └── Button.css
-│   ├── Card/
-│   │   ├── Card.tsx
-│   │   └── Card.css
-│   ├── Navbar/
-│   │   ├── Navbar.tsx
-│   │   └── Navbar.css
-│   ├── SearchBar/
-│   │   ├── SearchBar.tsx
-│   │   └── SearchBar.css
-│   └── Sidebar/
-│       ├── Sidebar.tsx
-│       └── Sidebar.css
-│
-├── services/                     # API & Business Logic
-│   ├── apiClient.ts             # Axios/Fetch wrapper
-│   ├── authService.ts           # Authentication logic
-│   ├── userService.ts           # User API calls
-│   └── dashboardService.ts      # Dashboard data fetching
-│
-├── types/                        # TypeScript types & interfaces
-│   ├── user.ts
-│   ├── dashboard.ts
-│   └── api.ts
-│
-├── utils/                        # Helper functions
-│   ├── formatDate.ts
-│   ├── validation.ts
-│   └── constants.ts
-│
-├── hooks/                        # Custom React hooks
-│   ├── useAuth.ts
-│   ├── useUser.ts
-│   └── useFetch.ts
-│
-├── styles/                       # Global styles
-│   ├── globals.css
-│   ├── variables.css             # CSS variables
-│   └── reset.css
-│
-└── context/                      # React Context (if needed)
-    ├── AuthContext.tsx
-    └── UserContext.tsx
-
-
-
-
-
-
-
-
-
-
-
-
-
+jiva-health/
+├── .git/
+├── .gitignore
+├── .next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── user-management/
+│   │   │   └── page.tsx
+│   │   ├── userdet/
+│   │   │   └── [userid]/
+│   │   │       └── page.tsx
+│   │   ├── services/
+│   │   ├── styles/
+│   │   │   ├── Card.css
+│   │   │   ├── dashboard.css
+│   │   │   ├── Navbar.css
+│   │   │   ├── SearchBar.css
+│   │   │   ├── Sidebar.css
+│   │   │   ├── User.css
+│   │   │   └── Userdet.css
+│   │   ├── .env.local
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       ├── Navbar.tsx
+│       ├── SearchBar.tsx
+│       └── Sidebar.tsx
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
 
 
 
