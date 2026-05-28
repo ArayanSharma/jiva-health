@@ -1,3 +1,64 @@
+jiva-health/
+├── .git/
+├── .gitignore
+├── .next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── user-management/
+│   │   │   └── page.tsx
+│   │   ├── userdet/
+│   │   │   └── [userid]/
+│   │   │       └── page.tsx
+│   │   ├── services/
+│   │   ├── styles/
+│   │   │   ├── Card.css
+│   │   │   ├── dashboard.css
+│   │   │   ├── Navbar.css
+│   │   │   ├── SearchBar.css
+│   │   │   ├── Sidebar.css
+│   │   │   ├── User.css
+│   │   │   └── Userdet.css
+│   │   ├── .env.local
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── Button.tsx
+│       ├── Card.tsx
+│       ├── Navbar.tsx
+│       ├── SearchBar.tsx
+│       └── Sidebar.tsx
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
